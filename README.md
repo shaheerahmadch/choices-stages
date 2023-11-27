@@ -4,6 +4,9 @@
 
 The Choices Stages PCF (PowerApps Component Framework) component enhances the user experience in Microsoft Dynamics 365 and Power Apps environments by providing an interactive control for selecting and updating a choice field associated with a record.
 
+![image](./assets/Screenshot%202023-11-27%20180704.png)
+
+
 ## Key Features
 
 - **Dynamic Choice Selection:** Render a list of choices for a specified choice field dynamically.
@@ -24,7 +27,7 @@ Integrate the Choices Stages PCF component into your Dynamics 365 or Power Apps 
 
 ## Author
 
-- **Shaheer Ahmad**
+- [**Shaheer Ahmad** ](https://github.com/shaheerahmadch)
 
 ## Release History
 
