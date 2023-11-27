@@ -28,7 +28,7 @@ Integrate the Choices Stages PCF component into your Dynamics 365 or Power Apps 
 
 ## Release History
 
-### [1.0.0] - Initial Release (Today's Date)
+### [1.0.0] - Initial Release (27-11-2023)
 
 - Added Choices Stages PCF component.
 - Implemented dynamic choice selection and active item highlighting.
