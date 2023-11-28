@@ -19,8 +19,6 @@
     </external-service-usage>
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
     <property name="Choice" display-name-key="Choice" description-key="Choice" of-type="OptionSet" usage="bound" required="true" />
-    <property name="entityId" display-name-key="Entity Id" description-key="The id of the current record." of-type="SingleLine.Text" usage="input" required="true" />
-    <property name="entityName" display-name-key="Entity Name" description-key="The logical name of the type of the current record." of-type="SingleLine.Text" usage="input" required="true" />
     <!--
       Property node's of-type attribute can be of-type-group attribute.
       Example:
@@ -41,7 +39,7 @@
       -->
     </resources>
     <!-- UNCOMMENT TO ENABLE THE SPECIFIED API-->
-    <feature-usage>
+    <!-- <feature-usage> -->
       <!-- <uses-feature name="Device.captureAudio" required="true" />
       <uses-feature name="Device.captureImage" required="true" />
       <uses-feature name="Device.captureVideo" required="true" />
@@ -49,8 +47,8 @@
       <uses-feature name="Device.getCurrentPosition" required="true" />
       <uses-feature name="Device.pickFile" required="true" />
       <uses-feature name="Utility" required="true" /> -->
-      <uses-feature name="WebAPI" required="true" />
-    </feature-usage>
+      <!-- <uses-feature name="WebAPI" required="true" />
+    </feature-usage> -->
     
   </control>
 </manifest>
