@@ -19,7 +19,7 @@ import "../ChoicesStages/css/choices-stages.css";
 interface StoryArgs {
   isVisible: boolean;
   isDisabled: boolean;
-  choice: number ;
+  choice: number;
 }
 
 export default {
@@ -90,24 +90,18 @@ const renderGenerator = () => {
         "Choice"
       ) as ShkoOnline.PickListAttributeMetadata;
 
-      ChoiceMetadata.OptionSet = {
-        IsCustomOptionSet: true,
-        MetadataId: "",
-        Name: "optionset",
-        OptionSetType: 11,
-        Options: {
-          [0]: {
-            Label: "Start",
-            Value: 0,
-          },
-          [1]: {
-            Label: "Middle",
-            Value: 1,
-          },
-          [2]: {
-            Label: "End",
-            Value: 2,
-          },
+      ChoiceMetadata.OptionSet.Options = {
+        [0]: {
+          Label: "Start",
+          Value: 0,
+        },
+        [1]: {
+          Label: "Middle",
+          Value: 1,
+        },
+        [2]: {
+          Label: "End",
+          Value: 2,
         },
       };
 
